@@ -12,7 +12,7 @@ Works via the HTML5 MediaRecorder API ([currently only available in Chrome & Fir
 
 ## Demos
 
-Check out the simple [demo](https://hackingbeauty.github.io/react-mic/) first.
+Check out the simple [demo](https://wavev.github.io/react-mic/) first.
 
 Check out the component in action within a professional Web app [here](https://www.voicerecordpro.com/#/record).
 
