@@ -83,10 +83,15 @@ export class MicrophoneRecorder {
               sourceNode.connect(analyser);
             });
 
-          });
+          }).catch((error) => {
+            alert('No se ha encontrado el microfono');
+            onStopCallback(null);
+          }
+          );
 
       } else {
-        alert('Your browser does not support audio recording');
+        alert('No se ha encontrado el microfono');
+        onStopCallback(null);
       }
     }
 

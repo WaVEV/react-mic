@@ -52,7 +52,9 @@ export default class Demo extends Component {
   }
 
   onStop= (blobObject) => {
-    this.setState({ blobURL : blobObject.blobURL });
+    if (blobObject){
+      this.setState({ blobURL : blobObject.blobURL });
+    }
   }
 
   onData(recordedBlob){
